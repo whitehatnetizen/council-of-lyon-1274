@@ -17,7 +17,7 @@
 
 ## Preface
 
-Brothers in Christ, gathered servants of the living God
+Brothers...
 
 I come before you bearing a text I did not choose. When blessed Job had contended long with his comforters, when he had spoken much and defended himself with many words, the Lord answered him from the whirlwind. And Job, who had demanded justice, who had built arguments as a man builds walls, spoke these final words: *I have heard of thee by the hearing of the ear; but now mine eye seeth thee.*
 
@@ -64,7 +64,7 @@ I cannot say what He is. I can only tell you that I was held in the palm of some
 
 Concerning this vision, three things must be said:
 
-**First**, vision comes without mediation. As Dionysius writes in the *Mystical Theology*: the soul that ascends must leave behind all things, including its own concepts, until it enters the darkness where God dwells. I did not ascend, brothers. I was taken. And what I found in that darkness had so very many eyes.
+**First**, vision comes without mediation. As Dionysius writes in the *Mystical Theology*: the soul that ascends must leave behind all things, including its own concepts, until it enters the darkness where... where He dwells. I did not ascend, brothers. I was taken. And what I found in that darkness... what found me... had so very many eyes.
 
 The prophet Ezekiel was shown the living creatures, and he writes: *their wheels were full of eyes all around*. I read this passage a hundred times. I wrote commentaries. I did not understand that he was warning us.
 
@@ -83,7 +83,7 @@ Job, having seen, did not write a treatise. He sat in the ashes and was silent. 
 
 What do I repent? Not my sins against the commandments. I repent my precision. I repent my confidence. I repent the years I spent being correct about mysteries that correctness cannot touch.
 
-There is a wound in the Body of Christ. I called it a wound. I used to weep over it. I do not weep now. I see its purpose. I see that there are things that love us enough to let us remain divided, because this division is a protection. Unity, true unity, opens doors that perhaps should stay shut.
+There is a wound in the Body of... in the Church. I called it a wound. I used to weep over it. I do not weep now. I see its purpose. I see that there are things that love us enough to let us remain divided, because this division is a protection. Unity, true unity, opens doors that perhaps should stay shut.
 
 I have walked through such a door. I cannot walk back.
 
