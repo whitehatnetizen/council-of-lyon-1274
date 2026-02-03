@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Of the Occurrence at the Council of Lyon, 1274</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Cinzel:wght@400;500&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --parchment: #f4efe4;
+            --parchment-dark: #e8e0d0;
+            --ink: #2d2a26;
+            --ink-faded: #5a5550;
+            --accent: #7a4a4a;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 18px;
+        }
+
+        body {
+            font-family: 'EB Garamond', Georgia, serif;
+            background: var(--parchment);
+            color: var(--ink);
+            line-height: 1.75;
+            min-height: 100vh;
+        }
+
+        /* Subtle texture */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+            opacity: 0.025;
+            pointer-events: none;
+        }
+
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 4rem 2rem 6rem;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .title {
+            font-family: 'Cinzel', serif;
+            font-size: 1.5rem;
+            font-weight: 400;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--ink);
+            margin-bottom: 0.25rem;
+        }
+
+        .subtitle {
+            font-size: 1rem;
+            font-style: italic;
+            color: var(--ink-faded);
+        }
+
+        /* Body text */
+        article p {
+            text-indent: 1.5em;
+            margin-bottom: 0.5rem;
+            text-align: justify;
+            hyphens: auto;
+        }
+
+        article p.no-indent {
+            text-indent: 0;
+        }
+
+        article em {
+            font-style: italic;
+        }
+
+        /* Simple separator */
+        .separator {
+            text-align: center;
+            margin: 2rem 0;
+            color: var(--ink-faded);
+            letter-spacing: 0.5em;
+        }
+
+        /* The Brevis Nota section - parchment panel */
+        .brevis-nota {
+            background: linear-gradient(135deg, var(--parchment-dark) 0%, var(--parchment) 50%, var(--parchment-dark) 100%);
+            padding: 2rem 2rem;
+            margin: 2rem -1rem;
+            box-shadow:
+                inset 0 0 60px rgba(139, 119, 101, 0.15),
+                0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .brevis-nota p {
+            color: var(--ink-faded);
+        }
+
+        .brevis-nota em {
+            color: var(--ink);
+        }
+
+        .brevis-nota-header {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .latin-title {
+            font-family: 'Cinzel', serif;
+            font-size: 0.95rem;
+            font-weight: 400;
+            letter-spacing: 0.05em;
+            color: var(--accent);
+            margin-bottom: 0.25rem;
+        }
+
+        .english-title {
+            font-size: 0.95rem;
+            font-style: italic;
+            color: var(--ink-faded);
+        }
+
+        .location-date {
+            font-size: 0.9rem;
+            color: var(--ink-faded);
+            margin-top: 0.25rem;
+        }
+
+        /* Damaged ending */
+        .damaged {
+            color: var(--ink-faded);
+            font-style: italic;
+            text-align: center;
+            margin: 1.5rem 0;
+            font-size: 0.9rem;
+        }
+
+        /* Final warning */
+        .warning {
+            font-style: italic;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            html {
+                font-size: 17px;
+            }
+
+            .container {
+                padding: 2.5rem 1.5rem 4rem;
+            }
+
+            .title {
+                font-size: 1.3rem;
+            }
+        }
+
+        @media print {
+            body::before {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">Of the Occurrence at the Council of Lyon</h1>
+            <p class="subtitle">Anno Domini 1274</p>
+        </header>
+
+        <article>
+            <p class="no-indent">Thomas Aquinas (1225-1274) was an Italian Dominican friar, philosopher and theologian who became one of the most influential thinkers in Western intellectual history. His written works contain over 8 million words (equating to about 1000 words per day, every day, for over 21 years). His masterwork, the <em>Summa Theologica</em>, remains a foundational text in Catholic philosophy and covers everything from the existence of God to ethics and the nature of the soul. When, on March 31, 1273, in the hopes of uniting western Catholicism and eastern/Greek Orthodoxy, Pope Gregory X issued a papal bull calling for an ecumenical council in May the following year, in Lyon, France, Thomas was summoned as an intellectual giant. One of Aquinas's great works was specifically aimed at this exact debate: <em>Contra Errores Graecorum</em>, or, <em>Against the Errors of the Greeks</em>.</p>
+
+            <p>This life of prolific writing ended when, in December 1273, Aquinas had a profound experience during Catholic mass that caused him to stop writing entirely. When his friend and secretary Reginald of Piperno urged him to continue his work, Aquinas reportedly said <em>"I cannot, because all that I have written seems like straw to me now."</em> The exact nature of his experience remains debated. Some interpret it as a mystical vision that made his intellectual achievements feel insignificant by comparison. Others have suggested it may have been a stroke or some kind of physical or mental breakdown, as he had been working at an extraordinary pace for years.</p>
+
+            <p>Whatever had happened to Aquinas in December 1273, he never wrote again, and the <em>Summa Theologica</em> was left unfinished.</p>
+
+            <p>There are conflicting accounts of Aquinas's death, both of the date and of the method. Some say he was already in failing health as he left Naples to head towards the council. The most commonly accepted account is that he died in March 1274, while en route to the city of Lyon, after striking his head on a low-hanging branch of a tree.</p>
+
+            <p>There is, however, evidence to the contrary. That he was neither in failing health, nor had he struck his head upon a branch, but rather that he arrived at the council of Lyon in seemingly good health.</p>
+
+            <p>What follows is an account written by an unnamed notary who bore witness to the events in Lyon, the ending of which appears to have been lost to water damage.</p>
+
+            <div class="separator">* * *</div>
+
+            <section class="brevis-nota">
+                <div class="brevis-nota-header">
+                    <h2 class="latin-title">Brevis nota eorum quae in consummatione fratris Thomae de Aquino acciderunt</h2>
+                    <p class="english-title">A brief note of those things which occurred at the consummation of Brother Thomas of Aquino</p>
+                    <p class="location-date">At the Council of Lyon, in the Year of Our Lord 1274</p>
+                </div>
+
+                <p class="no-indent">In the session appointed for the reading from the treatise <em>Contra Errores Graecorum</em>, and the presentation of his opening position, Brother Thomas of Aquino, of the Order of Preachers, who had been summoned by the lord Pope Gregory to address the council on the matter of the Greek schism, rose to speak. He had been called as a doctor of great renown, whose writings on this question were known throughout Christendom.</p>
+
+                <p>Brother Thomas unexpectedly began with a confession, stating that he had come before the assembly as a different man than the one whom he was when he was summoned. He declared that a revelation had occurred to him while attending mass, during the elevation of the host, that something had changed him. And that what stood before the assembled crowd was what remained of the man he had been.</p>
+
+                <p>He spoke of the Schism, which had endured two hundred and twenty years, and stated that the mere linguistic differences held as a great divide between the two halves of the body of Christ were as a deep ocean that merely needed traversal. He stated that he had written at length on this topic, with a great passion. That he had compiled many arguments as to why the eastern church was in error, but that in the end, all of these are as nothing in the presence of the infinite.</p>
+
+                <p>Referencing the book of Psalms 104:25-26, Brother Thomas spoke <em>"So is this great and wide sea, wherein are things creeping innumerable, both small and great beasts. There go the ships: and there is the great leviathan. The afflicted Job speaks at length of this leviathan in the 41st chapter."</em></p>
+
+                <p>Then referencing the book of Job 42:5-6, Brother Thomas spoke <em>"I have heard of thee by the hearing of the ear; but now mine eyes seeth thee. Wherefore I despise myself, and repent in salt and brine."</em> Whether Brother Thomas, knowing the correct words to be 'dust and ashes', merely misspoke, or whether he had come to know different words, was not clear to those assembled. He did not correct himself.</p>
+
+                <p>It was when Brother Thomas began speaking of the angelic visions described in the book of Ezekiel that his speech faltered and his gaze was seen to be off into the distance instead of at his audience. He spoke of the rivers Sa&ocirc;ne and Rh&ocirc;ne, the confluence at which this very cathedral was built. He spoke of the cleansing waters of the deep, of things older than stone, of deep waters that remembered.</p>
+
+                <p>In a manner unlike his usually direct and confident speech, Brother Thomas began repeating himself. <em>"Wheels within wheels within wheels"</em> he declared. <em>"Many wings, many hands, and mine eyes hath seen... When the truth is revealed, all detritus is washed away... and what remains has many, many eyes..."</em> At this statement it was clear that Brother Thomas had begun swaying, as if to the rhythm of a distant liturgy. As his eyes, dark as the ocean's depth, refocused on the audience before him, Brother Thomas smiled. It was seen that his smile was too broad, and contained too many teeth. There was no humour in his expression.</p>
+
+                <p>Brother Thomas produced from his robes a leather bound manuscript, believed to be his treatise, strange symbols in Brother Thomas's own hand carved into the leather. What was written upon those pages cannot be attested to with certainty. He spoke <em>"I have made... corrections."</em> And then finally <em>"Forgive me."</em></p>
+
+                <p>He begins to read. These are not words, yet he is reading. Sounds ancient and unpronounceable pound at my mind like waves in a storm...</p>
+
+                <p class="damaged">[ text becomes illegible ]</p>
+            </section>
+
+            <div class="separator">* * *</div>
+
+            <p class="no-indent">While historical accounts note that the Council of Lyon was ended abruptly, information regarding the cause is sparse. There is, however, significant evidence that capital works were undertaken on the Cathedral of Saint-Jean-Baptiste shortly thereafter, replacing and reinforcing the wooden buttresses which held the roof in place. Reports indicate the replaced timber was in such a state of rot as to fall apart in a man's hands.</p>
+
+            <p>This is all we have been able to verify. If further documentation exists, it has not been made available to us. We would counsel any who would pursue this knowledge further to weigh well its cost.</p>
+        </article>
+    </div>
+</body>
+</html>
